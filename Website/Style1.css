@@ -1,0 +1,104 @@
+﻿body {
+    font-family: Calibri, Arial;
+    background-color:  #dbc6c6;
+    text-align: center;
+}
+
+h1 {
+    background-color: #d3a2a2;
+    margin: 0;
+    padding: 2% 0;
+    color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
+}
+
+.centretable {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 200px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.loginlink {
+    padding: 10px;
+    background-color: #ff4800;
+    float: right;
+    margin-top: 15px;
+    margin-right: 35%;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+.loginlink:hover {
+    color: #FF8A5C;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.loggedinlink {
+    background-color: #ff4800;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 20px;
+}
+
+.loggedinlink:hover {
+    color: #FF8A5C;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+#loginnav {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+.aProject{
+    background-color: #ff4800;
+    padding: 25px;    
+    margin: 10px 0;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+#caption {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+#passwordcaption {
+    color: #ff4800;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-style:oblique;
+}
+
+table {
+    width: 200px;
+}

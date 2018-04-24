@@ -1,0 +1,174 @@
+﻿/*Master CSS Styles*/
+#container {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: Calibri, Arial;
+    font-size: 1.5em;
+    color: white;
+    background-color: #599a84;
+    padding-bottom: 200px;
+}
+
+#master_Title {
+    color: #ffffff;
+    text-align: center;
+}
+
+#master_Content {
+    margin: 0 10%;
+}
+
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #9a596f;
+}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 40px;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: #9a596f;
+        }
+
+#logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/*End of Master CSS Styles*/
+
+.center {
+    text-align: center;
+}
+
+h1#top {
+    margin: 0;
+    position: fixed;
+    vertical-align: top;
+    background-color: #6c92a1;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    height: 1.5em;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#staff_links_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.staff_links {
+    padding: 20px 40px;
+    margin: 0 2px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+    .staff_links:hover {
+        background-color: #66a791;
+    }
+
+#bottomnavcontainer {
+    font-size: initial;
+    margin-bottom: 0;
+    margin-top: 150%;
+}
+
+div#childnav {
+    width: 80%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+
+div#maincontent {
+    top: 1.5em;
+    position: relative;
+    margin-left: 240px;
+    padding: 15px;
+}
+
+#content_title {
+    text-align: center;
+}
+
+footer {
+    background-color: #9a596f;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+}
+
+#student_links_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.student_links {
+    padding: 20px 40px;
+    margin: 0 2px;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+    .student_links:hover {
+        background-color: #66a791;
+    }
+
+.no_margin_bottom {
+    margin-bottom: 0;
+}
+
+#create_tenancy {
+    color: inherit;
+    padding: 10px 0;
+    padding-right: 10px;
+}
+
+    #create_tenancy:hover {
+        background-color: #66a791;
+    }
+
+/*Slideshow*/
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
