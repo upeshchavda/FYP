@@ -35,7 +35,7 @@
                 <img src="images/room4.jpg" style="width: 30%; float: right; margin-left: 20px;" />
                 <p class="center">For bicycle and vehicular owners, we are proud to say that we offer on-site parking, equipped with 24-7 security and CCTV for your peace of mind. </p>
                 <p class="center">Our 'All Inclusive' packages ensure that you get the best out of your stay, with access to the on-site gym, cinema room and lounge areas.</p>
-
+                <p>TEst</p>
                 <footer id="location">
                     <p>You are here: Home</p>
                 </footer>
