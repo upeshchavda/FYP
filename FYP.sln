@@ -29,6 +29,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{0B4
 		SlnRelativePath = "Website\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary_Aneeka", "ClassLibrary_Aneeka\ClassLibrary_Aneeka.csproj", "{6ED137D8-EF51-498B-9EBF-6C3D87372DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFramework_Aneeka", "TestFramework_Aneeka\TestFramework_Aneeka.csproj", "{D9DECD1C-5F09-4E6D-874B-9F02BE7012C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{0B4258B6-324B-4F1D-AE07-05A2F94CE1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B4258B6-324B-4F1D-AE07-05A2F94CE1DF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B4258B6-324B-4F1D-AE07-05A2F94CE1DF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ED137D8-EF51-498B-9EBF-6C3D87372DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED137D8-EF51-498B-9EBF-6C3D87372DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED137D8-EF51-498B-9EBF-6C3D87372DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED137D8-EF51-498B-9EBF-6C3D87372DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DECD1C-5F09-4E6D-874B-9F02BE7012C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DECD1C-5F09-4E6D-874B-9F02BE7012C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DECD1C-5F09-4E6D-874B-9F02BE7012C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DECD1C-5F09-4E6D-874B-9F02BE7012C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
